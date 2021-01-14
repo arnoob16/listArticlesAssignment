@@ -30,7 +30,7 @@ function App() {
           title = {result.title}
           byline = {result.byline}
           imageUrl = {result.multimedia[2].url}
-          altText = {result.multimedia[2].caption}
+          source = {result.source}
           topic = {result.section}
         />
       })}
