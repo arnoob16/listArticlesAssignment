@@ -63,7 +63,12 @@
   font-size: 1rem;
 }
 
-.byline, .date, .topic{
+.cardFooter{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mutedText{
   margin: 2.5px 0px;
   font-size: 0.8rem;
   overflow: hidden;
@@ -71,8 +76,4 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   color: #929292;
-}
-
-.topic{
-  color: #393939;
 }
