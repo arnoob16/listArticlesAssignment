@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+<h1 align=center>NYTimes Articles</h1>
+<h4 align=center>A React App that lists down most popular news articles of NYTimes using their free API</h4>
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align=center>Built With?</h2>
 
-## Available Scripts
+<h5 align=center> Click here to see the live <a href="https://list-articles-assignment.arnoob16.vercel.app/">Vercel Deployment.</a></h5>
+<p align=center>
+    <img src = "https://img.shields.io/badge/newyorktimes%20API-000000?style=for-the-badge&logo=New%20York%20Times&logoColor=white"/>
+    <img src = "https://img.shields.io/badge/ReactJS-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+    <img src = "https://img.shields.io/badge/Vercel-008080?style=for-the-badge&logo=vercel"/>
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<h2 align=center>The Responsive UI & Performance</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+|<img src="https://raw.githubusercontent.com/arnoob16/listArticlesAssignment/master/screenshots/desktopSS.png"/>|<img  src="https://raw.githubusercontent.com/arnoob16/listArticlesAssignment/master/screenshots/mobileSS.png" align=center/>|<img src="https://raw.githubusercontent.com/arnoob16/listArticlesAssignment/master/screenshots/performance.png"/>|
+|---|---|---|
