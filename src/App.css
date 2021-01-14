@@ -39,19 +39,13 @@
   max-height: 200px;
 }
 
-.card .cardHeader:hover + .overlay{
-  z-index: +99;
-  background-color: #222;
-  opacity: 0.8;
-  transition-delay: 0.5s ease-in-out;
-}
-
 .overlay{
   margin-top: -200px;
   width: 300px;
   height: 200px;
-  cursor: pointer;
-  z-index: -99;
+  opacity: 0;
+  background-color: #222;
+  z-index: -9;
   position: relative;
 }
 
@@ -59,10 +53,17 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  cursor: pointer;
   transform: translate(-50%, -50%);
   color: #fff;
   text-decoration: none;
   font-weight: 900;
+}
+
+.cardHeader:hover + .overlay, .overlay:hover{
+  z-index: +9;
+  opacity: 0.8;
+  transition: all 0.4s ease-in-out;
 }
 
 .cardContent{
