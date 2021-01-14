@@ -4,7 +4,7 @@ import Card from './Card';
 import './App.css';
 
 function App() {
-  const url = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=v4tV9pjJksBAGKxc0J8iGTj3Tdlo4MtU"
+  const url = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=Bn2PozsOaZopQDIwCOGNc3KVmHBCXiMc"
   
   const [results, setResults] = useState([])
   
@@ -19,15 +19,18 @@ function App() {
 
   return (
     <div className="cardContainer">
-      {results.map((result) => {
+      {results.map((result, index) => {
+        if(result.multimedia === null || result.byline === ""){
+          return null;
+        }
         return <Card
-          key = {result.id}
+          key = {index}
           url = {result.url}
-          date = {result.published_date}
+          date = {result.published_date.substring(0, result.published_date.indexOf("T"))}
           title = {result.title}
           byline = {result.byline}
-          imageUrl = {result.media[0]["media-metadata"][2].url}
-          altText = {result.media[0].caption}
+          imageUrl = {result.multimedia[2].url}
+          altText = {result.multimedia[2].caption}
           topic = {result.section}
         />
       })}

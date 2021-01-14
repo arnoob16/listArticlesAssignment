@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <nav>
-            Most Popular Articles from NYTimes
+            Latest News Articles on NYTimes
         </nav>
     )
 }

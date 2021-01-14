@@ -1,5 +1,5 @@
 <h1 align=center>NYTimes Articles</h1>
-<h4 align=center>A React App that lists down most popular news articles of NYTimes using their free API</h4>
+<h4 align=center>A React App that lists down most recent news articles of NYTimes using their free API</h4>
 
 <h2 align=center>Built With?</h2>
 
